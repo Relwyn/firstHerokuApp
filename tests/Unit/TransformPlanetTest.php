@@ -14,7 +14,7 @@ class TransformPlanetTest extends TestCase
             'diameter' => '12500',
             'surface_water' => '40',
             'created' => '2014-12-10T11:35:48.479000Z',
-	    'climate' => 'Arid'
+            'climate' => 'Arid'
         ];
 
         $transformedPlanet = StarWarsPlanetsController::transformPlanet($originalPlanet);
@@ -22,7 +22,7 @@ class TransformPlanetTest extends TestCase
         $this->assertEquals([
             'planet_name' => 'Alderaan',
             'planet_diameter' => 12500,
-	    'planet_climate' => 'Arid'
+            'planet_climate' => 'Arid'
         ], $transformedPlanet);
     }
 }
