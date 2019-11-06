@@ -11,6 +11,7 @@ PHP 7.1 or higher and these PHP extensions (which are installed and enabled by d
 docker-compose up -d
 docker exec php make install
 ```
+Go to [http://localhost/star-wars-planets](http://localhost/star-wars-planets)
 
 ## Launch tests
 ```sh
