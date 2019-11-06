@@ -13,6 +13,6 @@ class RootController extends AbstractController
      */
     public function index()
     {
-        return $this->json(null, 204);
+        return $this->json(null, 200);
     }
 }
